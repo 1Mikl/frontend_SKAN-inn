@@ -12,7 +12,7 @@ import manDashboardSrc from '../../assets/images/man-dashboard.jpg';
 import TariffList from '../../components/TariffList/TariffList';
 
 const MainPage = () => {
-  document.title = 'Сервис по поиску публикаций о компании по ее ИНН — СКАН';
+  document.title = 'SKAN inn';
 
   const { isLoggedIn } = useAuth();
   const navigate = useNavigate();

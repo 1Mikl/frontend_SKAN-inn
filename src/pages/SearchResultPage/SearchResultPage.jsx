@@ -11,7 +11,7 @@ import DocumentList from '../../components/DocumentList/DocumentList';
 import { ReactComponent as WomanWithLupaSVG } from '../../assets/images/woman-with-lupa.svg';
 
 const SearchResultPage = () => {
-  document.title = 'Результаты поиска публикаций о компании по его ИНН — СКАН';
+  document.title = 'SKAN inn';
 
   const navigate = useNavigate();
   const actionData = useActionData();
