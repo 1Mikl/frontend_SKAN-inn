@@ -1,9 +1,6 @@
 import React from 'react';
-
 import styles from './styles.module.scss';
-
 import Spinner from '../Spinner/Spinner';
-
 import { useAuth } from '../../hooks/useAuth';
 import { useGetAccountInfoQuery } from '../../redux/api/scan';
 
